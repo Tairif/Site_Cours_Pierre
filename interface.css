@@ -1,0 +1,21 @@
+@font-face { font-family: myriad; src: url('fonts/myriad_pro_light_cd.otf'); }
+@font-face { font-family: myriad_bold; src: url('fonts/myriad_pro_bold.otf'); }
+@font-face { font-family: myriad_italic; src: url('fonts/myriad_pro_italic.otf'); }
+html, body{width:100%; height:100%;}
+body {background-color: #ffffff;font-size: 15px;margin: 0px;padding: 0px;border: 0;color: #1e2129;overflow-x: hidden;}
+body * {}
+p{font-family: myriad;font-size: 18px;}
+.img-responsive{ max-width: 100%; height: auto; display: block;}
+.img-center{display:block;margin-left: auto;margin-right: auto;}
+
+/* Header */
+.main_header{background-color:#292927; width:100%;z-index:1000;font-family: myriad;}
+.menu_phone{display: none;}
+.acces_bo{background-color:#292927; width:64px;height:64px;text-align:center; position: fixed; top: 10px; right: 10px;border-radius:5px;}
+.acces_bo img{width:32px; height:32px; margin-top: 16px;}
+
+/* Footer */
+.main_footer{background-color:#292927;font-family: myriad;color:#ffffff;}
+#zone_map{position: relative;width:404px; height: 180px;margin: auto;margin-top: 40px;}
+#map_world{position: absolute; top:0px; left: 0px;}
+#map_here{position: absolute; top:0px; left: 0px;}

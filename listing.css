@@ -1,0 +1,38 @@
+/** Listing **/
+.tab_td{
+    padding: 5px;
+    font-family: 'Arial';
+}
+
+.tab_header{
+    background-color: rgba(11,14,19,1);
+    color: #ffffff;
+    line-height: 35px;
+    font-family: 'Bitter';
+    font-size: 22px;
+}
+.tab_header .tab_td{
+    padding: 15px;
+    font-family: 'Bitter';
+    font-size: 22px;
+}
+
+
+.tab_td a{
+    text-decoration: none;
+}
+
+.tab_row_1{
+    background-color: #eeeeee;
+    color: #a8a8a8;
+    line-height: 35px;
+}
+
+.tab_row_2{
+    background-color: #ffffff;
+    color: #a8a8a8;
+    line-height: 35px;
+}
+
+.tab_row_1:hover{ color: #000000;}
+.tab_row_2:hover{ color: #000000;}

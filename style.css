@@ -1,0 +1,213 @@
+html{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial;
+    background-color: #f9faff;
+}
+a{
+    outline:none;
+}
+.header{
+    background: rgb(245,83,98);
+    background: linear-gradient(180deg, rgba(245,83,98,1) 0%, rgba(186,29,50,1) 100%);
+    width: 80px;
+    height: 100vh;
+    position: fixed;
+    top:0px;
+    left:0px;
+    text-align: center;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.43);
+    -moz-box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.43);
+    -webkit-box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.43);
+}
+.logo_site{
+    width: 64px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+.header a {
+    display: block;
+    width: 100%;
+    height: 75px;
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+}
+.header a:hover{
+    background-color: rgba(186,29,50,0.8);
+}
+.header a img{
+    margin-top: 15px;
+    width: 32px;
+    height: 32px;
+}
+.header_top{
+    background: rgb(50,62,84);
+    background: linear-gradient(180deg, rgba(50,62,84,1) 0%, rgba(11,14,19,1) 100%);
+    width: calc(100vw - 80px);
+    height: 250px;
+    top:0px;
+    left:80px;
+    position: relative;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.43);
+}
+.header_title {
+    position: absolute;
+    top: 15px;
+    left: 30px;
+    font-family: 'Bitter';
+    font-size: 35px;
+    color: white;
+}
+.header_login{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 440px;
+    height: 30px;
+}
+.header_logout_btn{
+    height: 30px;
+    width: 30px;
+    float: right;
+    margin-left: 10px;
+}
+.header_logout_btn a img{
+    width:30px;
+    height: 30px;
+}
+.header_info_user{
+    float: right;
+    width:380px;
+    text-align: right;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 30px;
+    height: 30px;
+}
+.nb_item_panier {
+    margin-right: 20px;
+}
+.header_info_user img{
+    height: 28px;
+    width: 28px;
+    border-radius: 14px;
+    border: 1px solid rgba(255,255,255,0.5);
+    margin-left: 10px;
+    vertical-align: middle;
+}
+.header_link{
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+    height: 75px;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+}
+.one_link{
+    width: 80px;
+    height: 75px;
+    text-align: center;
+}
+.one_link a{
+    display: block;
+    width: 100%;
+    height: 75px;
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+}
+.one_link a img{
+    margin-top: 15px;
+    width: 32px;
+    height: 32px;
+}
+.result_form_ok{
+    width: 40vw;
+    margin:auto;
+    border-radius: 15px;
+    background-color: rgba(0,255,0,0.4);
+    border: 1px solid rgba(0,255,0,0.8);
+    padding: 10px;
+    text-align: center;
+}
+.result_form_ko{
+    width: 40vw;
+    margin:auto;
+    border-radius: 15px;
+    background-color: rgba(255,0,0,0.4);
+    border: 1px solid rgba(255,0,0,0.8);
+    padding: 10px;
+    text-align: center;
+}
+.zone_contenu_clean{
+    width: calc(100vw - 80px);
+    margin-left: 80px;
+}
+
+/** Debug **/
+.ajax_debug {
+    z-index:5000;
+    position:absolute;
+    top:32px;
+    right:10%;
+    width:50%;
+    border:3px solid red;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color:#bbb;
+    z-index:9;
+    padding: 10px;
+}
+.ajax_debug legend {
+    height: 35px;
+    line-height: 35px;
+    background-color: red;
+    color: white;
+    font-family: "Courier New";
+    font-size: 22px;
+    text-align: center;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.debug{
+    position: absolute;
+    width: 40vw;
+    bottom: 20px;
+    right: 20px;
+    border:2px solid red;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-color:#bbb;
+    z-index:9;
+    padding: 0px;
+}
+
+.debug span {
+    display: block;
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    background-color: red;
+    color: white;
+    font-family: "Courier New";
+    font-size: 22px;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.debug div {
+    padding: 10px;
+    font-family: "Courier New";
+    font-size: 12px;
+}
